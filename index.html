@@ -60,7 +60,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2025-07-20 19:55:07',
+  postUpdate: '2025-07-20 19:56:39',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -419,10 +419,10 @@ queueMicrotask(() => {
         sub.unshift(data.hitokoto, from)
         window.typed = new Typed('#subtitle', {
           strings: sub,
-          startDelay: 300,
-          typeSpeed: 250,
+          startDelay: 200,
+          typeSpeed: 50,
           loop: false,
-          backSpeed: 10,
+          backSpeed: 250,
         })
       } else {
         document.getElementById('subtitle').innerHTML = data.hitokoto
